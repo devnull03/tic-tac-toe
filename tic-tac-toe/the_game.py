@@ -138,6 +138,7 @@ if mode == 'm' :
                                         continue
                                 print()
                                 grid()
+                                turn += 1
                                 if true is True :
                                         print('Player 1 WINS !!!')
                                         played += 1
@@ -205,6 +206,7 @@ if mode == 'm' :
                                         continue
                                 print()
                                 grid()
+                                turn = turn - 1
                                 if true is True :
                                         print('Player 2 WINS !!!')
                                         played += 1
